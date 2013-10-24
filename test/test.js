@@ -13,4 +13,10 @@ describe("quickmap", function() {
             return a*a;
         }).should.deep.equal([]);
     });
+    it('should work with no function',function(){
+        function mapArgs(){
+            return quickmap(arguments);
+        }
+        mapArgs(1,2,3,4,5,6).should.deep.equal([1,2,3,4,5,6]);
+    });
 });
