@@ -1,6 +1,6 @@
 {
   "name": "lie-quickmap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "quickly map all the lies",
   "main": "lib/quickMap.js",
   "scripts": {
